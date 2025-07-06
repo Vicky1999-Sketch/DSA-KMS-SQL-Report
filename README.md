@@ -43,12 +43,45 @@ Key transformation steps included:
 SELECT TOP 1 product_category, SUM(sales) AS category_sales
 FROM kms_table
 GROUP BY Product_Category
-ORDER BY category_sales DESC```
+ORDER BY category_sales DESC
+```
 
-* **Category:** Technology
-* **Total Sales:** ₦5,984,248.18
+**Category:** Technology
+**Total Sales:** ₦5,984,248.18
 
 Insight: *Technology is the most profitable category.*
+
+### 2. **Top & Bottom 3 Regions by Sales**
+
+**Top 3 Regions:**
+```sql
+--Top 3
+SELECT TOP 3 region, SUM(sales) AS region_sales
+FROM kms_table
+GROUP BY region
+ORDER BY region_sales DESC
+```
+Findings
+* West – ₦3,597,549.27
+* Ontario – ₦3,063,212.48
+* Prairie – ₦2,837,304.61
+
+**Bottom 3 Regions:**
+```sql
+SELECT TOP 3 region, SUM(sales) AS region_sales
+FROM kms_table
+GROUP BY region
+ORDER BY region_sales ASC
+```
+Findings
+* Nunavut – ₦116,376.48
+* Northwest Territories – ₦800,847.33
+* Yukon – ₦975,867.38
+
+Insight: *Significant sales disparity exists across regions, highlighting geographic concentration.*
+
+
+
 
 
 
