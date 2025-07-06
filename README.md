@@ -204,9 +204,6 @@ Grant Carroll  	                  |Accessory23   	                              
 "  	                  |Xerox 197        	
 "  	                  |Xerox 213        	
 
-
-**Top 3 Customers:**
-
 Insight: *The top three customers Emily Phan (₦34,005.44), Deborah Brumfield (₦31,121.22), and Grant Carroll (₦27,977.29) consistently purchase a wide range of premium office equipment and electronics.*
 
 ### 7. **Small business customer that had the highest sales**
@@ -304,15 +301,14 @@ Insight: No, the company did not appropriately spend shipping cost based on orde
 ## **VII. Recommendations**
 1. Improve profitability from bottom 10 customers by limiting discounts and enforcing better return policies.
 2. Double down on Technology and West/Ontario sales via promotions or inventory expansion.
-3. Introduce smarter logistics planning — especially in aligning shipping cost with priority.
-4. Retain top customers through reward programs and personalized engagement.
-5. Target high-performing segments (e.g., small business and corporate) with customized deals.
-6. Use insights from returns to fix product or delivery issues.
-7. Set business rules to map high-priority orders to faster shipping.
-8. Review why costlier delivery is being used for lower-priority shipments (e.g., "Low" via Delivery Truck at ₦11k+).
-
+3.  Review why costlier delivery is being used for lower-priority shipments (e.g., "Low" via Delivery Truck at ₦11k+).
+4. Introduce smarter logistics planning — especially in aligning shipping cost with priority.
+5. Retain top customers through reward programs and personalized engagement.
+6. Target high-performing segments (e.g., small business and corporate) with customized deals.
+7. Use insights from returns to fix product or delivery issues.
+  
 ## **VII. Conclusion**
-The analysis reveals that while KMS benefits from high-value customers and strong category sales (especially in Technology and West/Ontario), profitability is threatened by frequent product returns, inefficient shipping practices, and unprofitable customers. Strategic actions focused on retention, logistics, and customer segmentation will help improve overall revenue and efficiency.
+Kultra Mega Stores has a strong foundation with high-value customers and standout product categories. However, profitability is hampered by inefficiencies in shipping practices, high return rates, and a group of unprofitable customers. By refining logistics, targeting top segments, and enforcing smarter sales policies, KMS can significantly boost revenue and long-term performance.
 
 
 
