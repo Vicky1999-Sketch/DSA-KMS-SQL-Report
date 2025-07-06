@@ -175,7 +175,6 @@ Deborah Brumfield     	             |Acme® 8" Straight Scissors       	        
 "     	             |Tennsco Regal Shelving Units 	
 "     	             |Tuff Stuff™ Recycled Round Ring Binders          	
 "    	              |V70    	
-
 Grant Carroll  	                  |Accessory23   	                                                         |27977.29
 "                  	  |Avery 506        	
 "  	                  |Bell Sonecor JB700 Caller ID     	
