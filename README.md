@@ -55,7 +55,6 @@ Insight: *Technology is the most profitable category.*
 
 **Top 3 Regions:**
 ```sql
---Top 3
 SELECT TOP 3 region, SUM(sales) AS region_sales
 FROM kms_table
 GROUP BY region
