@@ -145,11 +145,11 @@ ORDER BY customer_profit DESC
 Findings
 Customer_name                       |product_name                   |customer_total_profit
 :-----------------------:|:-------------------------------:|:----------------------------------------:
-Emily Phan                          |Bell Sonecor JB700 Caller ID                |34005.44
-  "                                  |Bell Sonecor JB700 Caller ID                |                  
-    "                                |Boston 1730 StandUp Electric Pencil Sharpener|
-     "                               |Fellowes Bankers Box™ Stor/Drawer® Steel Plus™|
-     "                               |Harmony HEPA Quiet Air Purifiers|
+Emily Phan                          |Bell Sonecor JB700 Caller ID                       |34005.44
+  "                                 |Bell Sonecor JB700 Caller ID                       |                  
+  "                                 |Boston 1730 StandUp Electric Pencil Sharpener      |
+  "                                 |Fellowes Bankers Box™ Stor/Drawer® Steel Plus™     |
+  "                                 |Harmony HEPA Quiet Air Purifiers                   |
 **Top 3 Customers:**
 
 * Emily Phan (₦34,005.44)
