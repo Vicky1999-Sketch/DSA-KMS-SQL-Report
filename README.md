@@ -1,6 +1,8 @@
 # **Kultra Mega Stores Inventory Report**
 *Disclaimer: The data is for educational and analytical purposes only.*
 
+![472b2671-5659-4fae-adf2-61d0eb9e1b93](https://github.com/user-attachments/assets/82960bea-3887-4da5-925b-e7ecd1fe1c2f)
+
 ## **I. Introduction**
 Kultra Mega Stores (KMS), headquartered in Lagos, specializes in office supplies and furniture. Its customer base includes individual consumers, small businesses (retail), and large corporate clients (wholesale) across Lagos, Nigeria. This report contains key insights and findings from data analysis conducted using SQL queries.
 
