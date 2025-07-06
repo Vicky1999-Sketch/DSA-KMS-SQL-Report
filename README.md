@@ -300,6 +300,19 @@ Not Specified                  |Regular Air                        |1277        
 
 Insight: No, the company did not appropriately spend shipping cost based on order priority. "Critical" and "High" priority orders are being shipped via Delivery Truck rather than Express Air. This suggests a misalignment between priority level and shipping method.
  
+## **VII. Recommendations**
+Improve profitability from bottom 10 customers by limiting discounts and enforcing better return policies.
+Double down on Technology and West/Ontario sales via promotions or inventory expansion.
+Introduce smarter logistics planning — especially in aligning shipping cost with priority.
+Retain top customers through reward programs and personalized engagement.
+Target high-performing segments (e.g., small business and corporate) with customized deals.
+Use insights from returns to fix product or delivery issues.
+Set business rules to map high-priority orders to faster shipping.
+Review why costlier delivery is being used for lower-priority shipments (e.g., "Low" via Delivery Truck at ₦11k+).
+
+## **VII. Conclusion**
+The analysis reveals that while KMS benefits from high-value customers and strong category sales (especially in Technology and West/Ontario), profitability is threatened by frequent product returns, inefficient shipping practices, and unprofitable customers. Strategic actions focused on retention, logistics, and customer segmentation will help improve overall revenue and efficiency.
+
 
 
 
