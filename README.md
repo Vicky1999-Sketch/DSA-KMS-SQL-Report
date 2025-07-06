@@ -80,6 +80,45 @@ Findings
 
 Insight: *Significant sales disparity exists across regions, highlighting geographic concentration.*
 
+### 3. **Total sales of appliances in Ontario**
+```sql
+SELECT region, product_sub_category, SUM(sales) AS total_sales_appliances
+FROM kms_table
+GROUP BY region, Product_Sub_Category
+HAVING region = 'Ontario' AND Product_Sub_Category = 'appliances'
+```
+Findings
+**Total Sales:** ₦202,346.84
+Insight: *A relatively small portion of total Ontario sales.*
+
+### 4. **Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers**
+**Bottom 10 Customers by Profit**
+```sql
+SELECT TOP 10 Customer_Name, SUM(profit) AS revenue, COUNT(customer_name) AS no_of_returns
+FROM kms_table
+GROUP BY Customer_Name
+ORDER BY revenue ASC
+```
+Findings:
+Customer_name                       |revenue                   |no_of_returns
+:-----------------------:|:-------------------------------:|:----------------------------------------:
+Julia West                          |-14154.29                |10
+Dave Kipp 	                        |-12930.59 	              |14
+Laurel Workman   	                  |-12587.05 	              |7
+Adrian Barton                       |-11853.03 	              |5
+Lauren Leatherbury                  |-11152.83 	              |24
+Roger Demir                         |-10187.92 	              |9
+Roy Phan  	                        |-9613.99  	              |18
+Tamara Willingham	                  |-9238.29                	|16
+Cyra Reiten                         |-8529.67  	              |6
+Corey Lock	                        |-8392.04  	              |10
+ 
+Advise: All 10 customers have negative profit, implying high return rates, deep discounts, or costly service. These customers may be draining profitability despite frequent orders. Investigate their purchase patterns, returns, and pricing—possibly migrate them to prepaid plans or remove excessive discounts.
+
+
+
+
+
 
 
 
