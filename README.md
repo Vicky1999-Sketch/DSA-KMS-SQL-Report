@@ -46,8 +46,8 @@ GROUP BY Product_Category
 ORDER BY category_sales DESC
 ```
 
-**Category:** Technology
-**Total Sales:** ₦5,984,248.18
+* **Category:** Technology
+* **Total Sales:** ₦5,984,248.18
 
 Insight: *Technology is the most profitable category.*
 
@@ -207,6 +207,110 @@ Grant Carroll  	                  |Accessory23   	                              
 **Top 3 Customers:**
 
 Insight: *The top three customers Emily Phan (₦34,005.44), Deborah Brumfield (₦31,121.22), and Grant Carroll (₦27,977.29) consistently purchase a wide range of premium office equipment and electronics.*
+
+### 7. **Small business customer that had the highest sales**
+```sql
+SELECT TOP 1 customer_name, customer_segment, SUM(sales) AS total_sales
+FROM kms_table
+GROUP BY Customer_Segment, customer_name
+HAVING customer_segment = 'Small Business'
+ORDER BY total_sales DESC
+```
+
+* **Customer:** Dennis Kane
+* **Sales:** ₦75,967.59
+
+### 8. **corporate customer that placed the most number of orders in 2009-2012**
+```sql
+SELECT TOP 1 customer_name, customer_segment, SUM(Order_Quantity) AS total_order, Order_Date
+FROM kms_table
+GROUP BY Customer_Segment, customer_name, Order_Date
+HAVING customer_segment = 'corporate' AND Order_Date BETWEEN '2009-01-01' AND '2012-12-31'
+ORDER BY total_order DESC
+```
+Findings
+* **Customer:** Laurel Elliston
+* **Orders:** 148
+Insight: *Demonstrates loyalty and purchasing consistency.*
+
+### 9. **Most Profitable Consumer Customer**
+```sql
+SELECT TOP 1 customer_name, customer_segment, SUM(profit) AS total_profit
+FROM kms_table
+GROUP BY Customer_Segment, customer_name
+HAVING customer_segment = 'consumer'
+ORDER BY total_profit DESC
+```
+Findings:
+* **Customer:** Emily Phan
+* **Profit:** ₦34,005.44
+Insight: *High-value individual customer, suitable for loyalty programs.*
+
+### 10. **Customer that returned items, and the segment to which they belong**
+--**Assuming negative profit means returns**
+```sql
+SELECT TOP 10 customer_name, customer_segment, COUNT(*) AS number_of_returns
+FROM kms_table
+WHERE Profit <= 0
+GROUP BY Customer_Segment, customer_name
+ORDER BY number_of_returns DESC
+```
+Findings
+Customer_name                       |customer_segment                   |number_of_returns
+:-----------------------:|:-------------------------------:|:----------------------------------------:
+Patrick Jones                       |Home Office                     |18 
+Brad Thomas                         |Home Office                     |17
+Christy Brittain 	                  |Consumer  	                     |16
+Ed Braxton	                         |Home Office                     |16
+Justin Knight                       |Corporate 	                     |15
+Adam Hart 	                         |Corporate 	                     |14
+Roy Skaria	                         |Corporate 	                     |14
+Denise Monton                       |Home Office                     |13
+Doug Bickford                       |Corporate 	                     |13
+John Lee  	                         |Corporate 	                     |13
+
+* **Top Returner:** Patrick Jones (18 returns)
+* **Segments:** Mostly Home Office and Corporate
+
+### 11. **Did the company appropriately spend shipping cost based on order priority**
+```sql
+SELECT Order_Priority, ship_mode, COUNT(*) AS num_orders, SUM(shipping_cost) AS total_shipping_cost
+FROM kms_table
+GROUP BY Order_Priority, Ship_Mode
+ORDER BY Order_Priority, Ship_Mode
+```
+
+order_priority                       |ship_mode                   |num_orders                     |total_shipping_cost
+:-----------------------:|:-------------------------------:|:----------------------------------------:|:------------------------------------:
+Critical                       |Delivery Truck                     |228                                |10783.8199481964 	   		
+Critical  	                    |Express Air                        |200	                               |1742.09998804331
+Critical  	                    |Regular Air                        |1180                               |8586.75996172428
+High                           |Delivery Truck   	                 |248	                               |11206.8799371719
+High                           |Express Air                        |212	                               |1453.5299910903
+High                           |Regular Air                        |1308                               |10005.0099598169
+Low	                           |Delivery Truck   	                 |250	                               |11131.6099338531
+Low	                           |Express Air                        |190	                               |1551.62999778986
+Low	                           |Regular Air                        |1280                               |10263.619956553
+Medium                         |Delivery Truck   	                 |205	                               |9461.61997509003
+Medium                         |Express Air                        |201	                               |1633.58999282122
+Medium                         |Regular Air                        |1225                               |9418.71996569633
+Not Specified                  |Delivery Truck   	                 |215	                               |9388.00994300842
+Not Specified                  |Express Air                        |180	                               |1470.05999219418
+Not Specified                  |Regular Air                        |1277                               |9734.07996362448
+
+Insight: No, the company did not appropriately spend shipping cost based on order priority. "Critical" and "High" priority orders are being shipped via Delivery Truck rather than Express Air. This suggests a misalignment between priority level and shipping method.
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
