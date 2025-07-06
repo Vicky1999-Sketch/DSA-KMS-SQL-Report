@@ -156,25 +156,54 @@ Emily Phan                          |Bell Sonecor JB700 Caller ID               
   "                                 |Surelock™ Post Binders 34005.44                                        |
   "                                 |TimeportP7382 34005.44                                                 |
 Deborah Brumfield     	             |Acme® 8" Straight Scissors       	                                     |31121.22
-"     	                             |Avery 51          	                                                    |31121.22
-"                  	                |DAX Contemporary Wood Frame with Silver Metal Mat, Desktop, 11 x 14 Size 	|31121.22
-"                   |Global High-Back Leather Tilter, Burgundy        	31121.22
-"     	             |Gyration Ultra Professional Cordless Optical Suite         	31121.22
-"     	             |Hewlett Packard LaserJet 3310 Copier	31121.22
-"     	             |Hon GuestStacker Chair            	31121.22
-"     	             |Hoover® Commercial Lightweight Upright Vacuum       	31121.22
-"     	             |Hunt BOSTON® Vista® Battery-Operated Pencil Sharpener, Black          	31121.22
-"     	             |Iceberg Mobile Mega Data/Printer Cart ®         	31121.22
-"     	             |KF 788   31121.22
-"     	             |Letter Size Cart 31121.22
-"             	     |M3682  31121.22
-"     	             |Memorex 4.7GB DVD-RAM, 3/Pack     	31121.22
-"     	             |Panasonic KX-P3626 Dot Matrix Printer  31121.22
-"                   |SAFCO Folding Chair Trolley     	31121.22
-"     	             |Talkabout T8367           	31121.22
-"     	             |Tennsco Regal Shelving Units 	31121.22
-"     	             |Tuff Stuff™ Recycled Round Ring Binders          	31121.22
-"    	              |V70    	31121.22
+"     	                             |Avery 51          	                                                    
+"                  	                |DAX Contemporary Wood Frame with Silver Metal Mat, Desktop, 11 x 14 Size 	
+"                   |Global High-Back Leather Tilter, Burgundy        	
+"     	             |Gyration Ultra Professional Cordless Optical Suite         	
+"     	             |Hewlett Packard LaserJet 3310 Copier	
+"     	             |Hon GuestStacker Chair            	
+"     	             |Hoover® Commercial Lightweight Upright Vacuum       	
+"     	             |Hunt BOSTON® Vista® Battery-Operated Pencil Sharpener, Black          	
+"     	             |Iceberg Mobile Mega Data/Printer Cart ®         	
+"     	             |KF 788   
+"     	             |Letter Size Cart 
+"             	     |M3682  
+"     	             |Memorex 4.7GB DVD-RAM, 3/Pack     	
+"     	             |Panasonic KX-P3626 Dot Matrix Printer  
+"                   |SAFCO Folding Chair Trolley     	
+"     	             |Talkabout T8367           	
+"     	             |Tennsco Regal Shelving Units 	
+"     	             |Tuff Stuff™ Recycled Round Ring Binders          	
+"    	              |V70    	
+
+Grant Carroll  	                  |Accessory23   	                                                         |27977.29
+"                  	  |Avery 506        	
+"  	                  |Bell Sonecor JB700 Caller ID     	
+"  	                  |Bush Heritage Pine Collection 5-Shelf Bookcase, Albany Pine Finish, *Special Order      	
+"  	                  |Col-Erase® Pencils with Erasers  
+"  	                  |Crate-A-Files™  
+"  	                  |Eldon Expressions Punched Metal & Wood Desk Accessories, Black & Cherry   	
+"  	                  |Fellowes PB300 Plastic Comb Binding Machine   
+"  	                  |Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind  
+"  	                  |GBC Recycled Regency Composition Covers    	
+"  	                  |Heavy-Duty E-Z-D® Binders     	
+"  	                  |Imation 3.5", RTS 247544 3M 3.5 DSDD, 10/Pack 
+"  	                  |Kensington 7 Outlet MasterPiece Power Center            	
+"  	                  |Lifetime Advantage™ Folding Chairs, 4/Carton   
+"  	                  |Logitech Internet Navigator Keyboard	
+"  	                  |Microsoft Natural Multimedia Keyboard           	
+"  	                  |R280  	
+"  	                  |Rediform Wirebound "Phone Memo" Message Book, 11 x 5-3/4           	
+"  	                  |Rush Hierlooms Collection Rich Wood Bookcases          	
+"  	                  |SAFCO Arco Folding Chair         	
+"  	                  |Sanford Prismacolor® Professional Thick Lead Art Pencils, 36-Color Set   
+"  	                  |Staples SlimLine Pencil Sharpener        	
+"  	                  |Verbatim DVD-R, 4.7GB, Spindle, WE, Blank, Ink Jet/Thermal, 20/Spindle          
+"  	                  |Xerox 1906      	
+"  	                  |Xerox 1966      	
+"  	                  |Xerox 197        	
+"  	                  |Xerox 213        	
+
 
 **Top 3 Customers:**
 
