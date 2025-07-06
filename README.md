@@ -115,6 +115,47 @@ Corey Lock	                        |-8392.04  	              |10
  
 Advise: All 10 customers have negative profit, implying high return rates, deep discounts, or costly service. These customers may be draining profitability despite frequent orders. Investigate their purchase patterns, returns, and pricing—possibly migrate them to prepaid plans or remove excessive discounts.
 
+### 5. **The shipping method that incurred the most shipping cost**
+```sql 
+SELECT TOP 1 ship_mode, SUM(shipping_cost) AS most_shipping_cost
+FROM kms_table
+GROUP BY ship_mode
+ORDER BY most_shipping_cost DESC
+```
+Finding
+* **Mode:** Delivery Truck
+* **Cost:** ₦51,971.94
+
+### 6. **Most valuable customers and the products they purchase**
+ **Customer value determined by profits from their purchase**
+```sql 
+WITH valuable_customers AS(
+SELECT TOP 5 customer_name, COUNT(customer_name) AS customer_appearing_times, SUM (profit) AS customer_profit
+FROM kms_table
+GROUP BY customer_name
+ORDER BY customer_profit DESC
+)
+SELECT v.customer_name, k.product_name, SUM(v.customer_profit) AS customer_total_profit
+FROM kms_table k 
+RIGHT JOIN valuable_customers v
+ON k.customer_name = v. customer_name
+GROUP BY v.customer_Name, k.product_Name, v.customer_profit
+ORDER BY customer_profit DESC
+```
+Findings
+Customer_name                       |product_name                   |customer_total_profit
+:-----------------------:|:-------------------------------:|:----------------------------------------:
+Emily Phan                          |Bell Sonecor JB700 Caller ID                |34005.44
+                                    |Bell Sonecor JB700 Caller ID                |      	
+**Top 3 Customers:**
+
+* Emily Phan (₦34,005.44)
+* Deborah Brumfield (₦31,121.22)
+* Grant Carroll (₦27,977.29)
+
+✅ *They consistently purchase a wide range of premium office equipment and electronics.*
+
+
 
 
 
