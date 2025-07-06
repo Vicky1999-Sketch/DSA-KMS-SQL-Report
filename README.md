@@ -145,8 +145,7 @@ ORDER BY customer_profit DESC
 Findings
 Customer_name                       |product_name                   |customer_total_profit
 :-----------------------:|:-------------------------------:|:----------------------------------------:
-Emily Phan                          |Bell Sonecor JB700 Caller ID                                           |34005.44
-  "                                 |Bell Sonecor JB700 Caller ID                                           |                  
+Emily Phan                          |Bell Sonecor JB700 Caller ID                                           |34005.44                  
   "                                 |Boston 1730 StandUp Electric Pencil Sharpener                          |
   "                                 |Fellowes Bankers Box™ Stor/Drawer® Steel Plus™                         |
   "                                 |Harmony HEPA Quiet Air Purifiers                                       |
@@ -156,8 +155,26 @@ Emily Phan                          |Bell Sonecor JB700 Caller ID               
   "                                 |Polycom ViewStation™ ISDN Videoconferencing Unit                       |
   "                                 |Surelock™ Post Binders 34005.44                                        |
   "                                 |TimeportP7382 34005.44                                                 |
-
-
+Deborah Brumfield     	             |Acme® 8" Straight Scissors       	                                     |31121.22
+"     	                             |Avery 51          	                                                    |31121.22
+"                  	                |DAX Contemporary Wood Frame with Silver Metal Mat, Desktop, 11 x 14 Size 	|31121.22
+"                   |Global High-Back Leather Tilter, Burgundy        	31121.22
+"     	             |Gyration Ultra Professional Cordless Optical Suite         	31121.22
+"     	             |Hewlett Packard LaserJet 3310 Copier	31121.22
+"     	             |Hon GuestStacker Chair            	31121.22
+"     	             |Hoover® Commercial Lightweight Upright Vacuum       	31121.22
+"     	             |Hunt BOSTON® Vista® Battery-Operated Pencil Sharpener, Black          	31121.22
+"     	             |Iceberg Mobile Mega Data/Printer Cart ®         	31121.22
+"     	             |KF 788   31121.22
+"     	             |Letter Size Cart 31121.22
+"             	     |M3682  31121.22
+"     	             |Memorex 4.7GB DVD-RAM, 3/Pack     	31121.22
+"     	             |Panasonic KX-P3626 Dot Matrix Printer  31121.22
+"                   |SAFCO Folding Chair Trolley     	31121.22
+"     	             |Talkabout T8367           	31121.22
+"     	             |Tennsco Regal Shelving Units 	31121.22
+"     	             |Tuff Stuff™ Recycled Round Ring Binders          	31121.22
+"    	              |V70    	31121.22
 
 **Top 3 Customers:**
 
