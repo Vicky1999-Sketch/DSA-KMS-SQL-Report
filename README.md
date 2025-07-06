@@ -130,7 +130,7 @@ Finding
  **Customer value determined by profits from their purchase**
 ```sql 
 WITH valuable_customers AS(
-SELECT TOP 5 customer_name, COUNT(customer_name) AS customer_appearing_times, SUM (profit) AS customer_profit
+SELECT TOP 3 customer_name, COUNT(customer_name) AS customer_appearing_times, SUM (profit) AS customer_profit
 FROM kms_table
 GROUP BY customer_name
 ORDER BY customer_profit DESC
@@ -206,11 +206,7 @@ Grant Carroll  	                  |Accessory23   	                              
 
 **Top 3 Customers:**
 
-* Emily Phan (₦34,005.44)
-* Deborah Brumfield (₦31,121.22)
-* Grant Carroll (₦27,977.29)
-
-✅ *They consistently purchase a wide range of premium office equipment and electronics.*
+Insight: *The top three customers Emily Phan (₦34,005.44), Deborah Brumfield (₦31,121.22), and Grant Carroll (₦27,977.29) consistently purchase a wide range of premium office equipment and electronics.*
 
 
 
